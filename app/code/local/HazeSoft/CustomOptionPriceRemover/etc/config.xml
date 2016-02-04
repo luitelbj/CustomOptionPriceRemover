@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <HazeSoft_CustomOptionPriceRemover>
+      <version>1.0.0</version>
+    </HazeSoft_CustomOptionPriceRemover>
+  </modules>
+  <global>
+    <helpers>
+      <customoptionpriceremover>
+        <class>HazeSoft_CustomOptionPriceRemover_Helper</class>
+      </customoptionpriceremover>
+    </helpers>
+	<blocks>
+	  <customoptionpriceremover>
+		<class>HazeSoft_CustomOptionPriceRemover_Block</class>
+	  </customoptionpriceremover>
+			<catalog>
+				<rewrite>
+					<product_view_options_type_select>HazeSoft_CustomOptionPriceRemover_Block_Catalog_Product_View_Options_Type_Select</product_view_options_type_select>
+				</rewrite>
+			</catalog>
+	</blocks>
+  </global>
+</config> 
